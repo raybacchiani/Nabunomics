@@ -1,6 +1,28 @@
 To start private blockchain repository:
 
+
 From genesis folder:
 ./../go-ethereum/build/bin/geth --datadir chaindata init genesis3.json
 
 ./../go-ethereum/build/bin/geth --datadir chaindata --networkid 3 console
+
+
+
+
+install nodejs and npm:
+	brew install node
+
+install ganache-cli (testRPC for testing smartContracts):
+	sudo npm install -g ganache-cli
+	sudo npm install -g ethereumjs-testrpc
+
+
+setup virtual environment and 
+
+https://web3py.readthedocs.io/en/stable/troubleshooting.html 
+
+access virtual environment
+
+source ~/.venv-py3/bin/activate
+
+

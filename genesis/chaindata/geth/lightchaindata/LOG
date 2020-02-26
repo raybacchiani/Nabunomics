@@ -18,3 +18,108 @@
 13:44:04.242735 db@open done T·42.007881ms
 13:44:04.243274 db@close closing
 13:44:04.243699 db@close done T·422.92µs
+=============== Feb 12, 2020 (EST) ===============
+14:58:44.778115 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:58:44.779292 version@stat F·[1] S·571B[571B] Sc·[0.25]
+14:58:44.779353 db@open opening
+14:58:44.779490 journal@recovery F·1
+14:58:44.782543 journal@recovery recovering @3
+14:58:44.789341 memdb@flush created L0@5 N·1 S·303B "eth..\x90!\xba,v12":"eth..\x90!\xba,v12"
+14:58:44.794706 version@stat F·[2] S·874B[874B] Sc·[0.50]
+14:58:44.813122 db@janitor F·4 G·0
+14:58:44.813164 db@open done T·33.773591ms
+14:58:44.813814 db@close closing
+14:58:44.814010 db@close done T·193.896µs
+=============== Feb 12, 2020 (EST) ===============
+14:59:06.083969 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:59:06.085183 version@stat F·[2] S·874B[874B] Sc·[0.50]
+14:59:06.085290 db@open opening
+14:59:06.085479 journal@recovery F·1
+14:59:06.086405 journal@recovery recovering @6
+14:59:06.091110 memdb@flush created L0@8 N·1 S·303B "eth..\x90!\xba,v14":"eth..\x90!\xba,v14"
+14:59:06.094750 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+14:59:06.110213 db@janitor F·5 G·0
+14:59:06.110262 db@open done T·24.941522ms
+14:59:06.111182 db@close closing
+14:59:06.111709 db@close done T·520.977µs
+=============== Feb 12, 2020 (EST) ===============
+15:23:54.647835 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:23:54.649675 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+15:23:54.649731 db@open opening
+15:23:54.649854 journal@recovery F·1
+15:23:54.652644 journal@recovery recovering @9
+15:23:54.657858 memdb@flush created L0@11 N·1 S·303B "eth..\x90!\xba,v16":"eth..\x90!\xba,v16"
+15:23:54.663417 version@stat F·[4] S·1KiB[1KiB] Sc·[1.00]
+15:23:54.680877 db@janitor F·6 G·0
+15:23:54.680993 db@open done T·31.194708ms
+15:23:54.681081 table@compaction L0·4 -> L1·0 S·1KiB Q·17
+15:23:54.682567 db@close closing
+15:23:54.687235 table@build created L1@14 N·10 S·571B "H\x9b\x8d..\x90!\xba,v3":"r\x00\x00..\x90!\xba,v5"
+15:23:54.687887 table@build exiting
+15:23:54.687909 table@build revert @14
+15:23:54.688318 db@close done T·5.748045ms
+=============== Feb 12, 2020 (EST) ===============
+15:30:31.761151 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:30:31.762351 version@stat F·[4] S·1KiB[1KiB] Sc·[1.00]
+15:30:31.762400 db@open opening
+15:30:31.762516 journal@recovery F·1
+15:30:31.765223 journal@recovery recovering @12
+15:30:31.769317 memdb@flush created L0@14 N·1 S·303B "eth..\x90!\xba,v18":"eth..\x90!\xba,v18"
+15:30:31.771543 version@stat F·[5] S·1KiB[1KiB] Sc·[1.25]
+15:30:31.785990 db@janitor F·7 G·0
+15:30:31.786029 db@open done T·23.610102ms
+15:30:31.786131 table@compaction L0·5 -> L1·0 S·1KiB Q·19
+15:30:31.787581 db@close closing
+15:30:31.791685 table@build created L1@17 N·10 S·571B "H\x9b\x8d..\x90!\xba,v3":"r\x00\x00..\x90!\xba,v5"
+15:30:31.792676 table@build exiting
+15:30:31.792703 table@build revert @17
+15:30:31.793376 db@close done T·5.79047ms
+=============== Feb 12, 2020 (EST) ===============
+15:32:44.190381 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:32:44.190709 version@stat F·[5] S·1KiB[1KiB] Sc·[1.25]
+15:32:44.190755 db@open opening
+15:32:44.190944 journal@recovery F·1
+15:32:44.191831 journal@recovery recovering @15
+15:32:44.196609 memdb@flush created L0@17 N·1 S·303B "eth..\x90!\xba,v20":"eth..\x90!\xba,v20"
+15:32:44.200113 version@stat F·[6] S·2KiB[2KiB] Sc·[1.50]
+15:32:44.216171 db@janitor F·8 G·0
+15:32:44.216206 db@open done T·25.416194ms
+15:32:44.216279 table@compaction L0·6 -> L1·0 S·2KiB Q·21
+15:32:44.216768 db@close closing
+15:32:44.221641 table@build created L1@20 N·10 S·571B "H\x9b\x8d..\x90!\xba,v3":"r\x00\x00..\x90!\xba,v5"
+15:32:44.222378 table@build exiting
+15:32:44.222398 table@build revert @20
+15:32:44.222920 db@close done T·6.147487ms
+=============== Feb 12, 2020 (EST) ===============
+17:02:58.562245 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:02:58.563997 version@stat F·[6] S·2KiB[2KiB] Sc·[1.50]
+17:02:58.564064 db@open opening
+17:02:58.564238 journal@recovery F·1
+17:02:58.568572 journal@recovery recovering @18
+17:02:58.580604 memdb@flush created L0@20 N·1 S·303B "eth..\x90!\xba,v22":"eth..\x90!\xba,v22"
+17:02:58.585037 version@stat F·[7] S·2KiB[2KiB] Sc·[1.75]
+17:02:58.604372 db@janitor F·9 G·0
+17:02:58.604422 db@open done T·40.332584ms
+17:02:58.604507 table@compaction L0·7 -> L1·0 S·2KiB Q·23
+17:02:58.614618 db@close closing
+17:02:58.619022 table@build created L1@23 N·10 S·571B "H\x9b\x8d..\x90!\xba,v3":"r\x00\x00..\x90!\xba,v5"
+17:02:58.619969 table@build exiting
+17:02:58.619990 table@build revert @23
+17:02:58.620472 db@close done T·5.854498ms
+=============== Feb 17, 2020 (EST) ===============
+12:49:44.632828 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:49:44.633650 version@stat F·[7] S·2KiB[2KiB] Sc·[1.75]
+12:49:44.633694 db@open opening
+12:49:44.633820 journal@recovery F·1
+12:49:44.636878 journal@recovery recovering @21
+12:49:44.645314 memdb@flush created L0@23 N·1 S·303B "eth..\x90!\xba,v24":"eth..\x90!\xba,v24"
+12:49:44.648800 version@stat F·[8] S·2KiB[2KiB] Sc·[2.00]
+12:49:44.663695 db@janitor F·10 G·0
+12:49:44.663746 db@open done T·30.034611ms
+12:49:44.665185 table@compaction L0·8 -> L1·0 S·2KiB Q·25
+12:49:44.669008 db@close closing
+12:49:44.673083 table@build created L1@26 N·10 S·571B "H\x9b\x8d..\x90!\xba,v3":"r\x00\x00..\x90!\xba,v5"
+12:49:44.673133 table@build exiting
+12:49:44.673156 table@build revert @26
+12:49:44.673587 db@write was delayed N·1 T·1.087635ms
+12:49:44.673802 db@close done T·4.79204ms

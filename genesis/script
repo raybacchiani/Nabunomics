@@ -1,0 +1,4 @@
+#! /bin/bash
+
+source ~/.venv-py3/bin/activate
+python web_test.py

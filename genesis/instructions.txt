@@ -6,6 +6,10 @@ From genesis folder:
 
 ./../go-ethereum/build/bin/geth --datadir chaindata --networkid 3 console
 
+^^ Dont do this, just install ethereum with brew:
+brew tap ethereum/ethereum
+brew install ethereum
+
 
 
 
@@ -25,4 +29,11 @@ access virtual environment
 
 source ~/.venv-py3/bin/activate
 
+
+password: pew
+
+Your new key was generated
+
+Public address of the key:   0x464C7eA3e5c9F38775742662FC36D7569c55d4E8
+Path of the secret key file: /Users/wbarakzai/Library/Ethereum/keystore/UTC--2020-02-26T15-55-07.452651000Z--464c7ea3e5c9f38775742662fc36d7569c55d4e8
 

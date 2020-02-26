@@ -1,7 +1,7 @@
 from web3 import Web3
 from solcx import compile_files, link_code
 
-w3 = Web3(Web3.HTTPProvider("https://localhost:8545"))
+w3 = Web3(Web3.HTTPProvider("https://127.0.0.1:8545"))
 
 contracts = compile_files(['test.sol'])
 

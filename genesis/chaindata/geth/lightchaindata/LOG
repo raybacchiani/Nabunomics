@@ -123,3 +123,21 @@
 12:49:44.673156 table@build revert @26
 12:49:44.673587 db@write was delayed N·1 T·1.087635ms
 12:49:44.673802 db@close done T·4.79204ms
+=============== Feb 25, 2020 (EST) ===============
+19:20:54.931129 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:20:54.932107 version@stat F·[8] S·2KiB[2KiB] Sc·[2.00]
+19:20:54.932163 db@open opening
+19:20:54.932317 journal@recovery F·1
+19:20:54.935392 journal@recovery recovering @24
+19:20:54.943369 memdb@flush created L0@26 N·1 S·303B "eth..\x90!\xba,v26":"eth..\x90!\xba,v26"
+19:20:54.946514 version@stat F·[9] S·2KiB[2KiB] Sc·[2.25]
+19:20:54.962779 db@janitor F·11 G·0
+19:20:54.962837 db@open done T·30.649405ms
+19:20:54.962980 table@compaction L0·9 -> L1·0 S·2KiB Q·27
+19:20:54.969909 table@build created L1@29 N·10 S·571B "H\x9b\x8d..\x90!\xba,v3":"r\x00\x00..\x90!\xba,v5"
+19:20:54.970881 db@close closing
+19:20:54.970883 version@stat F·[0 1] S·571B[0B 571B] Sc·[0.00 0.00]
+19:20:54.976269 table@commit exiting
+19:20:54.977109 db@write was delayed N·1 T·1.184051ms
+19:20:54.978488 table@remove removed @23
+19:20:54.978645 db@close done T·7.761542ms

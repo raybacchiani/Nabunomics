@@ -37,3 +37,6 @@ Your new key was generated
 Public address of the key:   0x464C7eA3e5c9F38775742662FC36D7569c55d4E8
 Path of the secret key file: /Users/wbarakzai/Library/Ethereum/keystore/UTC--2020-02-26T15-55-07.452651000Z--464c7ea3e5c9f38775742662fc36d7569c55d4e8
 
+MetaMask password : N@bunom!cs44$
+MetaMask phrase: pelican science sweet neither wrist upper artefact urban confirm hotel body struggle
+
